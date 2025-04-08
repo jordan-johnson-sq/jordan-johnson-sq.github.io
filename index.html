@@ -1,29 +1,104 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Black Background with Green Text</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Personal Blog - Reflections</title>
     <style>
         body {
-            background-color: black;
-            color: green;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #fff;
+            padding: 20px;
             text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+        nav {
+            margin: 0;
+            padding: 10px;
+            background-color: #333;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+        .content-section {
+            margin-bottom: 30px;
         }
     </style>
 </head>
 <body>
-    <div>
-        <h1>Welcome to My Website</h1>
-        <p>This text is green on a black background.
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna mollis euismod. Nulla vitae elit libero, a pharetra augue. Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
 
-Sed posuere consectetur est at lobortis. Morbi dapibus at odio sit amet elementum. Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Sed posuere consectetur est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
-		</p>
-    </div>
+<header>
+    <h1>My Reflections Blog</h1>
+    <p>A space for personal thoughts and reflections</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="home" class="content-section">
+    <h2>Welcome to My Blog</h2>
+    <p>Here, you'll find personal reflections and thoughts on life, experiences, and everything in between. Feel free to explore and connect with me!</p>
+</section>
+
+<section id="about" class="content-section">
+    <h2>About Me</h2>
+    <p>Hi, I'm [Your Name], a writer, thinker, and life enthusiast. I started this blog as a way to document my personal journey, share my reflections, and connect with like-minded individuals.</p>
+</section>
+
+<section id="blog" class="content-section">
+    <h2>Latest Reflections</h2>
+    <article>
+        <h3>Reflection Title 1</h3>
+        <p>Date: [Date]</p>
+        <p>[Your first blog post content goes here]</p>
+    </article>
+    <article>
+        <h3>Reflection Title 2</h3>
+        <p>Date: [Date]</p>
+        <p>[Your second blog post content goes here]</p>
+    </article>
+</section>
+
+<section id="contact" class="content-section">
+    <h2>Contact Me</h2>
+    <p>If you’d like to get in touch, feel free to email me at: <a href="mailto:your.email@example.com">your.email@example.com</a>.</p>
+</section>
+
+<footer>
+    <p>© 2024 My Reflections Blog</p>
+</footer>
+
 </body>
 </html>
